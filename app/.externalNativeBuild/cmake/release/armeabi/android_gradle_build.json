@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/SR1/StudioProjects/JohnLogicBaird/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/SR1/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/SR1/StudioProjects/JohnLogicBaird/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/SR1/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/SR1/StudioProjects/JohnLogicBaird/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/SR1/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/SR1/Library/Android/sdk/ndk-bundle/platforms/android-18/arch-arm  -Dnative_lib_EXPORTS -isystem /Users/SR1/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/SR1/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/SR1/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -std=c++11 -frtti -fexceptions -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/SR1/StudioProjects/JohnLogicBaird/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/SR1/StudioProjects/JohnLogicBaird/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/SR1/StudioProjects/JohnLogicBaird/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "6330677955772697840"
+		}
+	},
+	"toolchains" : 
+	{
+		"6330677955772697840" : 
+		{
+			"cCompilerExecutable" : "/Users/SR1/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/SR1/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
